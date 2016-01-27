@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+<ImageView
+    android:id="@+id/iv_fmlv_item_left"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:scaleType="centerInside"
+    android:padding="5dp"
+    android:src="@mipmap/smlv_item_system_left"
+    android:layout_centerVertical="true"
+    />
+    <TextView
+        android:id="@+id/tv_fmlv_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="标题"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/iv_fmlv_item_left"/>
+    <TextView
+        android:id="@+id/tv_fmlv_item_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray_text"
+        android:text="中间行,描述故障设备"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/tv_fmlv_item_title"
+        android:layout_alignLeft="@id/tv_fmlv_item_title"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/tv_fmlv_item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="1小时前"
+        android:textSize="12sp"
+        android:layout_marginRight="8dp"
+        android:layout_centerVertical="true"
+        android:textColor="@color/gray_text"
+        />
+
+
+</RelativeLayout>

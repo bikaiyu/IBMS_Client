@@ -1,0 +1,74 @@
+<resources>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">IBMS_client</string>
+    <string name="username_hint">用户名</string>
+    <string name="password_hint">密　码</string>
+    <string name="btn_login">登　录</string>
+    <string name="tv_reg">用户注册</string>
+    <string name="tv_retrievepassword">忘记密码</string>
+    <string name="back">上一步</string>
+    <string name="reg2_title">身份验证</string>
+    <string name="reg_username">请输入手机/邮箱</string>
+    <string name="reg_auth">请输入四位验证码</string>
+    <string name="reg_kanbuqing">看不清\n换一张</string>
+    <string name="reg_getauth">获取验证码</string>
+    <string name="reg_hintauth">请输入收到的验证码</string>
+    <string name="next">下一步</string>
+    <string name="haveid">已有帐号,直接登入</string>
+    <string name="addhead">添加头像</string>
+    <string name="yzm">V P X Y</string>
+    <string name="name">姓名</string>
+    <string name="position">职位</string>
+    <string name="post">职业</string>
+    <string name="phonenumber">手机</string>
+    <string name="password">请输入登录密码</string>
+    <string name="showpassword">显示登录密码</string>
+    <string name="reg3_title">初始化设置</string>
+    <string name="reg3_success1">恭喜您系统注册完成</string>
+    <string name="reg3_success2">您的账户已经成功开通</string>
+    <string name="reg3_login">立即登入</string>
+    <string name="getpwd_title">设置新密码</string>
+    <string name="getpwd1_tips">若长时间未收到验证码,您可以重新获取</string>
+    <string name="getpwd2_pwd1">请输入新密码</string>
+    <string name="getpwd2_pwd2">请再次输入新密码</string>
+    <string name="btn_ok">确定</string>
+    <string name="text_public_service">公共维修</string>
+    <string name="text_public_help">求助信息</string>
+    <string name="text_search_hint">输入相关字段进行搜索</string>
+    <string name="text_radiobutton_weijiedan">未接单</string>
+    <string name="text_radiobutton_yijiedan">已接单</string>
+    <string name="text_radiobutton_zhixingzhong">执行中</string>
+    <string name="text_radiobutton_yizanting">已暂停</string>
+    <string name="text_radiobutton_yiguanbi">已关闭</string>
+    <string name="text_publicfix_gdxq">公共维修-工单详情</string>
+    <string name="text_publicfix_gdbh">工单编号</string>
+    <string name="text_publicfix_gdms">工单描述</string>
+    <string name="text_publicfix_jjcd">紧急程度</string>
+    <string name="text_publicfix_gdly">工单来源</string>
+    <string name="text_publicfix_xgys">相关因素</string>
+    <string name="text_publicfix_scsj">生成时间</string>
+    <string name="text_publicfix_gzfx">故障分析</string>
+    <string name="text_publicfix_gzms">故障描述</string>
+    <string name="text_publicfix_dzyy">导致原因</string>
+    <string name="text_publicfix_jdsj">接单时间</string>
+    <string name="text_publicfix_zxr">执行人</string>
+    <string name="text_publicfix_zxrgw">执行人岗位</string>
+    <string name="text_publicfix_xzr">协助人</string>
+    <string name="text_publicfix_xzrgw">协助人岗位</string>
+    <string name="text_publicfix_wyjd">我要接单</string>
+    <string name="text_accepted_ksjs">开始计时</string>
+    <string name="text_accepted_ztgd">暂停工单</string>
+    <string name="text_accepted_gbgd">关闭工单</string>
+    <string name="text_accepted_fqqz">发起求助</string>
+    <string name="text_doing_jssj">计时时间</string>
+    <string name="text_doing_youxiaogongshi">有效工时</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="shenghuoquan">[摘要]12月15日下午，由深圳广播电影电视集团和深圳市柔力球协会主力，卓越集团赞助的2015卓越杯第二届柔力球社区巡演总决赛在福田皇岗村皇岗广场完善落幕。</string>
+    <string name="xiaoxi">【卓越集团】云服务器新年限时折扣：个人用户7折优惠，企业用户5折优惠。
+详情请戳 http://tb.cn/SmjQPex回复TD退订</string>
+    <string name="gongdanmiaoshu">空调是格力天逸F40M，最近出现个问题空调在用的过程中自动关机就（像断电那种）有两次了，而且一关了机，在开机还开不了，得等一会才能开，我觉的是天气热散不好的原因。请问这是怎么了，该怎么解决？这是属于正常现象，还是出现故障了呢？</string>
+
+
+</resources>

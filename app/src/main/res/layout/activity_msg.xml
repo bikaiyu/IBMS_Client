@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.com.yisquare.ibms.activity.Main2Activity"
+    >
+    <!-- 标题 -->
+    <RelativeLayout
+        android:id="@+id/rl_close_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/text_slmv_item_time_right">
+        <ImageView
+            android:id="@+id/iv_title_goback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="13dp"
+            android:src="@mipmap/goback_white"
+            android:onClick="goback"
+            />
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_public_help"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"/>
+
+
+    </RelativeLayout>
+    <!-- 搜索框 -->
+    <RelativeLayout
+        android:id="@+id/rl_search"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/gray_search_bg"
+        android:layout_below="@id/rl_close_title">
+        <TextView
+            android:id="@+id/tv_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/search_textview"
+            android:layout_margin="7dp"
+            android:paddingLeft="35dp"
+            android:textSize="12sp"
+            android:textColor="@color/gray_search_text"
+            android:hint="@string/text_search_hint"
+            android:gravity="center_vertical"
+            />
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@mipmap/search"
+            android:layout_marginLeft="10dp"
+            android:layout_alignLeft="@id/tv_search"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <!-- 导航栏 -->
+    <LinearLayout
+        android:id="@+id/rg_listMenu"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_below="@id/rl_search"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_tab_wait"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:text="等待求助"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textColor="@color/black3"
+            android:onClick="onClickChangeAdapter"
+            />
+        <Button
+            android:id="@+id/btn_tab_my"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:text="我发起的"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textColor="@color/black3"
+            android:onClick="onClickChangeAdapter"
+            />
+
+
+    </LinearLayout>
+    <!-- 导航栏_蓝条 -->
+    <LinearLayout
+        android:id="@+id/ll_listMenu_line"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/rg_listMenu"
+
+        >
+        <View
+            android:id="@+id/view_menu_wjd"
+            style="@style/blue_line"
+            />
+        <View
+            android:id="@+id/view_menu_yjd"
+            style="@style/blue_line"
+            android:visibility="invisible"
+            />
+
+    </LinearLayout>
+ <ListView
+     android:id="@+id/lv_activity_msg"
+     android:layout_below="@id/ll_listMenu_line"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:background="@color/gray_search_bg"
+     />
+    <LinearLayout
+        android:id="@+id/ll_msg_detail"
+        android:visibility="gone"
+        android:layout_below="@id/rl_close_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/detail"/>
+    </LinearLayout>
+</RelativeLayout>

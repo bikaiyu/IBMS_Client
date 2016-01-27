@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="from_array">
+        <item>BA子系统</item>
+        <item>用户提交</item>
+    </string-array>
+    <string-array name="classes_array">
+        <item>公共维修</item>
+        <item>客户维修</item>
+        <item>维保服务单</item>
+    </string-array>
+    <!--所在项目-->
+    <string-array name="project">
+        <item>所在项目</item>
+        <item>世纪中心商业</item>
+        <item>世纪中心塔楼</item>
+        <item>时代广场二期</item>
+        <item>卓越城</item>
+        <item>卓越大厦</item>
+        <item>时代广场一期</item>
+    </string-array>
+    <!--所在部门-->
+    <string-array name="department">
+        <item>福田站</item>
+        <item>南区</item>
+        <item>时代广场</item>
+        <item>时代广场一期</item>
+        <item>世纪强电暖通</item>
+        <item>世纪弱电</item>
+        <item>世纪商业</item>
+        <item>世纪塔楼</item>
+        <item>世纪中心</item>
+        <item>运行组</item>
+        <item>卓越城</item>
+        <item>卓越大厦</item>
+    </string-array>
+    <!--所在工作组-->
+    <string-array name="group">
+        <item>所在工作组</item>
+        <item>世纪中心塔楼</item>
+        <item>时代一期电梯组</item>
+        <item>维保班</item>
+        <item>设备运行组</item>
+        <item>时代一期服务台</item>
+        <item>时代二期服务台</item>
+        <item>客户维修班</item>
+        <item>运行1组</item>
+        <item>运行2组</item>
+        <item>弱电组</item>
+        <item>商业组</item>
+        <item>客户维修班</item>
+        <item>世纪中心服务台</item>
+        <item>卓越城北区服务台</item>
+        <item>卓越大厦服务台</item>
+    </string-array>
+
+</resources>

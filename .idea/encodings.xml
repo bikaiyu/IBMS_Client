@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/com/yisquare/ibms/Fragment/Icenter_Fragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/com/yisquare/ibms/Fragment/Msg_Fragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/com/yisquare/ibms/Fragment/Quanzi_Fragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/com/yisquare/ibms/Fragment/Schedule_Fragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/com/yisquare/ibms/activity/AppraiseActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/com/yisquare/ibms/activity/CreateOrderActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/com/yisquare/ibms/activity/DetailActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/com/yisquare/ibms/activity/MainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/anim" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/button_blue.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/home_orange_point.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/appraise.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/creat_order.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/home_range.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/home_range_detail.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/msg.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/my_order_list.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/title.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/menu" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-mdpi" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values-w820dp" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

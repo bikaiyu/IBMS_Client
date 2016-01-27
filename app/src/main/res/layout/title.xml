@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/rl_close_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/text_slmv_item_time_right">
+        <ImageView
+            android:id="@+id/iv_title_goback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/goback_white"
+            android:padding="17dp"
+            />
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的订单"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:id="@+id/iv_title_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提交评价"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

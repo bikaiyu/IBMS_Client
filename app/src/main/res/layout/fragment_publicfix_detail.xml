@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Pause_Fragment">
+
+    <include layout="@layout/detail" />
+
+    <TextView
+        android:id="@+id/tv_accept_nodata"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="所接工单已完成,请重新接单!"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:textSize="24sp"
+        />
+</RelativeLayout>
